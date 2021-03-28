@@ -4,7 +4,7 @@ import { Layout, CartContents, SEO } from 'components';
 const CartPage = () => {
   return (
     <Layout>
-      <SEO description="OP Floral Designer Cart" title="Carrito" />
+      <SEO description="OP Floral Designer " title="Carrito" />
       <CartContents />
     </Layout>
   );
