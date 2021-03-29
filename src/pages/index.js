@@ -7,12 +7,17 @@ const IndexPage = () => {
   console.log(collections);
   
   return (
+    
     <Layout>
-      <SEO description="OP Floral Designer Home" 
-      title="Inicio"/>
-<HomePageCollectionGrid collections={collections.filter(collection => collection.title !== "Home")} />
-{!!collections.find(collection => collection.title === "Selección del Florista") &&
-<FeaturedProducts />}
+      <SEO description="OP Floral Designer Home" title="Inicio" />
+      <HomePageCollectionGrid
+        collections={collections.filter(
+          collection => collection.title !== 'Home'
+        )}
+      />
+      {!!collections.find(
+        collection => collection.title === 'Selección del Florista'
+      ) && <FeaturedProducts />}
     </Layout>
   );
 };

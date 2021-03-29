@@ -15,6 +15,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
+          `Oswald\:200`,
+          `Oswald\:300`,
+          `Oswald\:400`,
+          `Oswald\:700`,
           `open sans\:400`,
           'open sans:400i',
           `open sans\:700`,

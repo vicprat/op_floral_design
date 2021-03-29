@@ -20,20 +20,20 @@ export const ProductTileWrapper = styled.div`
   }
 `;
 export const Title = styled.div`
-  font-weight: bold;
-  font-size: 20px;
-  margin: 20px;
-`;
+         font-weight: bold;
+         font-size: 20px;
+         margin: 20px;
+       `;
 
 export const Description = styled.div`
-  color: #999;
-  text-align: left;
-  padding: 0 20px 10px 20px;
-`;
+         color: #999;
+         text-align: left;
+         padding: 0 20px 0px 20px;
+       `;
 
 export const Price = styled.div`
-  font-style: italic;
-  padding: 20px;
-  font-weight: bold;
-  margin-top: auto;
-`;
+         font-style: italic;
+         padding: 20px;
+         font-weight: lighter;
+         margin-top: auto;
+       `;
