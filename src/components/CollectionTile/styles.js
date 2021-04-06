@@ -27,40 +27,42 @@ export const ColectionTileContent = styled.div`
     padding: 20px;
 
     ${StyledLink} {
-      padding: 5px 10px;
-      background: white;
-      border: 1px solid black;
-      font-weight: bold;
-      font-size: 16px;
-      text-transform: uppercase;
-      display: inline-block;
-      color: black;
-      text-decoration: none;
-      cursor: pointer;
-
+      font-family: 'Oswald', sans-serif;
+         padding: 5px 10px;
+         margin-bottom: 5px;
+         display: inline-block;
+         text-decoration: none;
+         color: #ddd;
+         text-transform: uppercase;
+         font-size: 5rem;
+         letter-spacing: 00.5rem;
+         font-weight: 200;
+         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+         background: ${props => (props.sale ? 'rgba(0,0,0, 0.3)' : 'none')};
+         transition: all 0.5s;
+  
       &:hover {
         color: white;
-        background: black;
       }
     }
   }
 `;
 export const Title = styled.div`
-  padding: 5px 10px;
-  margin-bottom: 5px;
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: 40px;
-  font-weight: bold;
-  border-radius: 10px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
-  background: ${props => (props.sale ? 'rgba(0,0,0, 0.3)' : 'none')};
-`;
+         font-family: 'Oswald', sans-serif;
+         padding: 5px 10px;
+         margin-bottom: 5px;
+         display: inline-block;
+         text-transform: uppercase;
+         font-size: 5rem;
+         letter-spacing: 00.5rem;
+         font-weight: 200;
+         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+         background: ${props => (props.sale ? 'rgba(0,0,0, 0.3)' : 'none')};
+       `;
 
 export const Description = styled.div`
-  font-size: 20px;
-  margin: 20px;
-  border-radius: 10px;
-  background: ${props => (props.sale ? 'rgba(0,0,0, 0.3)' : 'none')};
-  padding: 10px;
-`;
+         font-size: 20px;
+         margin: 20px;
+         background: ${props => (props.sale ? 'rgba(0,0,0, 0.3)' : 'none')};
+         padding: 10px;
+       `;

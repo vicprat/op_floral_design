@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     background: none;
   }
   body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.2;
     background: #f4eeea;
     background-image: url(${BackgroundImage});

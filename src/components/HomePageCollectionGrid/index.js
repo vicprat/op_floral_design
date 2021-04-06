@@ -4,7 +4,7 @@ import { RemainingCollections } from './styles';
 
 export function HomePageCollectionGrid({ collections }) {
   const saleCollection = collections.find(
-    collection => collection.title === 'Selección del Florista'
+    collection => collection.title === 'Selección del Florsta'
   );
   const remainingCollections = collections.filter(
     collection => collection.title !== 'Selección del Florista'

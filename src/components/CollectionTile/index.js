@@ -2,7 +2,6 @@ import React from 'react';
 import {
   CollectionTileWrapper,
   ColectionTileContent,
-  Title,
   Description,
 } from './styles';
 import BackgroundImage from 'gatsby-background-image';
@@ -20,9 +19,9 @@ export function CollectionTile({
       <BackgroundImage fluid={backgroundImage} />
       <ColectionTileContent>
         <div>
-          <Title sale={sale}>{title}</Title>
+          <StyledLink to={destination}>{title}</StyledLink>
           <Description sale={sale}>{description}</Description>
-          <StyledLink to={destination}>comparar ahora</StyledLink>
+          
         </div>
       </ColectionTileContent>
     </CollectionTileWrapper>
