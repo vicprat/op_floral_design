@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import BackgroundImage from '../images/backgrounds/10.svg';
+import BackgroundImage from '../images/backgrounds/11.svg';
 
 export const Grid = styled.section`
          background-image: url(${BackgroundImage});

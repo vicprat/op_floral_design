@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     font-family: 'Poppins', sans-serif;
     line-height: 1.2;
-    background: #f4eeea;
+   
     background-image: url(${BackgroundImage});
          background-repeat: no-repeat;
          background-position: center;
@@ -35,9 +35,11 @@ export const GlobalStyle = createGlobalStyle`
     letter-spacing: .5rem;
   }
   h2{
-    font-size: 2.5em;
+    font-family: 'Oswald', smercmerans-serif;
+    font-size: 3em;
   }
   h3{
+    font-family: 'Oswald', sans-serif;
     font-size: 2em;
   }
   h4{
@@ -48,6 +50,9 @@ export const GlobalStyle = createGlobalStyle`
   }
   h6{
     font-size: 0.75em;
+  }
+  p{
+    font-size: 1.3em;
   }
   ul{
     margin-left: 20px;

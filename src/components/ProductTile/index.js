@@ -12,11 +12,13 @@ export function ProductTile({
 }) {
   return (
     <ProductTileWrapper>
+       <StyledLink to={`/products/${handle}`}>
       <Img fluid={imageFluid} />
+      </StyledLink>
       <Title>{title} </Title>
       <Description>{description}</Description>
       <Price>$ {parseFloat(minPrice).toFixed(2)}</Price>
-      <StyledLink to={`/products/${handle}`}>¡Ver más!</StyledLink>
+     
     </ProductTileWrapper>
   );
 }

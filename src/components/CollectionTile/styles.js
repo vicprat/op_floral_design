@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { StyledLink } from '../StyledLink';
+import { motion } from 'framer-motion';
 
 export const CollectionTileWrapper = styled.div`
   height: 300px;
@@ -11,7 +12,7 @@ export const CollectionTileWrapper = styled.div`
     flex-grow: 1;
   }
 `;
-export const ColectionTileContent = styled.div`
+export const ColectionTileContent =  styled(motion.div)`
   display: flex;
   color: white;
   flex-grow: 1;
@@ -21,26 +22,30 @@ export const ColectionTileContent = styled.div`
   width: 100%;
   height: 100%;
   text-decoration: none;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
   text-align: center;
+  opacity: 0;
+  transition: .5s ease;
+  &:hover {
+    opacity: 1;
+    
+  }
   > div {
     padding: 20px;
 
     ${StyledLink} {
       font-family: 'Oswald', sans-serif;
-         padding: 5px 10px;
-         margin-bottom: 5px;
-         display: inline-block;
-         text-decoration: none;
-         color: #ddd;
-         text-transform: uppercase;
-         font-size: 5rem;
-         letter-spacing: 00.5rem;
-         font-weight: 200;
-         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-         background: ${props => (props.sale ? 'rgba(0,0,0, 0.3)' : 'none')};
-         transition: all 0.5s;
-  
+      padding: 5px 30px;
+      margin-bottom: 5px;
+      display: inline-block;
+      text-decoration: none;
+      color: #ddd;
+      font-size: 2.5rem;
+      letter-spacing: 00.5rem;
+      font-weight: 200;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+      background: ${props => (props.sale ? 'rgba(0,0,0, 0.3)' : 'none')};
+      transition: all 0.5s;
       &:hover {
         color: white;
       }

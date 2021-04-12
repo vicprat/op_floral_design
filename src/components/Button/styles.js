@@ -50,7 +50,7 @@ export const Button = styled.button`
   letter-spacing: 2px;
   text-align: center;
   position: relative;
-  transition: 0.5s cubic-bezier(.07,.47,.84,.72);
+  transition: 0.3s cubic-bezier(.07,.47,.84,.72);
   white-space: nowrap;
   ${fullWidthStyles}
   &:after{
@@ -62,7 +62,7 @@ export const Button = styled.button`
   height: 100%;
   background: #23D997;
   z-index: -1;
-  transition: 0.5s cubic-bezier(.07,.47,.84,.72);
+  transition: 0.3s cubic-bezier(.07,.47,.84,.72);
 }
 &:hover {
     color: white;
