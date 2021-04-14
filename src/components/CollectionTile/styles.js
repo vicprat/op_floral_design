@@ -12,7 +12,7 @@ export const CollectionTileWrapper = styled.div`
     flex-grow: 1;
   }
 `;
-export const ColectionTileContent =  styled(motion.div)`
+export const ColectionTileContent = styled(motion.div)`
   display: flex;
   color: white;
   flex-grow: 1;
@@ -25,10 +25,9 @@ export const ColectionTileContent =  styled(motion.div)`
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   &:hover {
     opacity: 1;
-    
   }
   > div {
     padding: 20px;
@@ -40,12 +39,15 @@ export const ColectionTileContent =  styled(motion.div)`
       display: inline-block;
       text-decoration: none;
       color: #ddd;
-      font-size: 2.5rem;
+      font-size: 1.5rem;
       letter-spacing: 00.5rem;
       font-weight: 200;
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
       background: ${props => (props.sale ? 'rgba(0,0,0, 0.3)' : 'none')};
       transition: all 0.5s;
+      @media (min-width: 384px) {
+            font-size: 3rem;
+                      }
       &:hover {
         color: white;
       }

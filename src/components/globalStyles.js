@@ -33,6 +33,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 6em;
     letter-spacing: .5rem;
   }
+  
   h2{
     font-family: 'Oswald', smercmerans-serif;
     font-size: 3em;
@@ -48,7 +49,12 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1em;
   }
   h6{
-    font-size: 0.75em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 6em;
+    letter-spacing: .5rem;
+    color:#23D997 ;
+  
   }
   p{
     font-size: 1.3em;

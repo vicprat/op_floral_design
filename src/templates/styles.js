@@ -7,7 +7,7 @@ export const Grid = styled.section`
          display: grid;
          grid-template-columns: 1fr;
          grid-gap: 20px;
-         margin-top: 20px;
+         margin: 50px;
          align-items: center;
          justify-content: center;
          text-align: center;
