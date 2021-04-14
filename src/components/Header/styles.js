@@ -3,10 +3,11 @@ import styled from 'styled-components';
 export const HeaderWrapper = styled.div`
          display: flex;
          width: 100%;
-         background: #111;
+         background: #ccc;
          align-items: center;
-         margin: 0 auto;
-         padding: 10px 10%;
+         justify-content: space-around;
+         padding: 10px auto;
          box-sizing: border-box;
          flex-wrap: wrap;
        `;
+

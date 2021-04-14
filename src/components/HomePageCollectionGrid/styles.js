@@ -7,7 +7,7 @@ export const RemainingCollections = styled.div`
          > div {
            margin-bottom: 2rem;
            flex-grow: 1;
-           height: 80vh;
+           height: 50vh;
            min-width: 100%;
          }
        `;

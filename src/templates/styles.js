@@ -11,6 +11,7 @@ export const Grid = styled.section`
          align-items: center;
          justify-content: center;
          text-align: center;
+
          @media (min-width: 768px) {
            grid-template-columns: 1fr 1fr;
 

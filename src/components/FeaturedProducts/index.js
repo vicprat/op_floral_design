@@ -1,6 +1,7 @@
 import React from 'react';
 import { ProductsGrid } from '../ProductsGrid';
 import ProductContext from 'context/ProductContext';
+import styled from 'styled-components';
 
 export function FeaturedProducts() {
   const { collections } = React.useContext(ProductContext);
@@ -10,9 +11,11 @@ export function FeaturedProducts() {
   );
 
   return (
-    <section>
-      <h2>Selección destacada del mes</h2>
+    <Wrapper>
+      <h3 >Selección destacada del mes</h3 >
       <ProductsGrid products={featuredCollection.products} />
-    </section>
+    </Wrapper>
   );
 }
+
+const Wrapper = styled.section``;
