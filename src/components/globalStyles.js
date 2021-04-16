@@ -16,7 +16,6 @@ export const GlobalStyle = createGlobalStyle`
    
     background-image: url(${BackgroundImage});
          background-repeat: no-repeat;
-         background-position: center;
          background-size: cover;
   }
   strong{
@@ -24,13 +23,13 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 200;
     font-size: 1.5rem;
   }
-  h1,h2,h3,h4,h5,h6{
+  h2,h3,h4,h5{
     margin: 20px 20px;
   }
   h1{
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
-    font-size: 6em;
+    font-size: 5em;
     letter-spacing: .5rem;
   }
   
@@ -50,8 +49,8 @@ export const GlobalStyle = createGlobalStyle`
   }
   h6{
     font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: 6em;
+    font-weight: 300;
+    font-size: 5em;
     letter-spacing: .5rem;
     color:#23D997 ;
   
