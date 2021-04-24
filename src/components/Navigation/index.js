@@ -10,7 +10,6 @@ export function Navigation() {
         <Nav className="mr-auto">
           <Nav.Link href="/">Inicio</Nav.Link>
           <Nav.Link href="categories">Catalogo</Nav.Link>
-          <Nav.Link href="events">Eventos</Nav.Link>
           <Nav.Link href="contact">Contacto</Nav.Link>
           <Search />
         </Nav>
