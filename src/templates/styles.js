@@ -8,10 +8,12 @@ export const Grid = styled.section`
                 align-items: center;
                 justify-content: center;
                 text-align: center;
-                h1,
-                p {
-                  padding: 0 50px;
-                }
+                h6  {
+           padding: 5rem;
+         }
+         p {
+           padding: 3rem 5rem;
+         }
                 @media (min-width: 768px) {
                   grid-template-columns: 1fr 1fr;
 
@@ -25,6 +27,8 @@ export const Grid = styled.section`
               `;
 
 export const SelectWrapper = styled.div`
+color: #333 ;
+  font-weight:lighter;
   margin-top: 5rem;
   > strong {
     display: block;
@@ -35,6 +39,5 @@ export const SelectWrapper = styled.div`
 export const Price = styled.div`
   font-family: 'Oswald', sans-serif;
   margin: 40px 0;
-
   font-size: 2rem;
 `;

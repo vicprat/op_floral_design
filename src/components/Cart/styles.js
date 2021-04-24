@@ -4,10 +4,11 @@ import { StyledLink } from '../StyledLink';
 export const CartWrapper = styled(StyledLink).attrs(() => ({
          to: '/cart',
        }))`
-         padding-left: 20px;
+         padding: 1rem;
          display: flex;
-         color: white;
+         color: #555;
          text-decoration: none;
+         transition: ease-in-out 0.3s;
 
          > svg {
            margin: auto;
@@ -20,6 +21,6 @@ export const CartWrapper = styled(StyledLink).attrs(() => ({
 
          &:hover {
            text-decoration: underline;
-           color: white;
+           color: #aaa;
          }
        `;
