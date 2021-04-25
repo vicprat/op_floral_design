@@ -5,6 +5,7 @@ import {
   SEO,
   HomeBanner,
   CollabsGrid,
+  AboutSection,
 } from 'components';
 import ProductContext from '../context/ProductContext';
 
@@ -18,6 +19,7 @@ const IndexPage = () => {
       <Layout>
         <SEO description="OP Floral Designer Home" title="Inicio" />
         <HomeBanner />
+        <AboutSection />
         <CollabsGrid />
         {!!collections.find(
           collection => collection.title === 'Selección del Florista'

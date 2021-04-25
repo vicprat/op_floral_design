@@ -9,10 +9,24 @@ import { Grid } from './styles';
 export function CollabsGrid() {
   return (
     <Grid>
+       <article style={{ backgroundImage: `url(${Image4})` }}>
+        <Link
+          aria-label="Florista del Mes"
+          to="/contact"
+          className="link primary"
+        >
+          <header className="major">
+            <h4>Florista Invitado del Mes</h4>
+            <p>
+              ¡Esta es una sección muy especial! Creada para tener excelentes
+              colaboraciones con colegas floristas, mes con mes.
+            </p>
+          </header>
+        </Link>
+      </article>
       <article style={{ backgroundImage: `url(${Image1})` }}>
         <Link
-          aria-label="Link to Landing Page"
-          to="/landing"
+          aria-label="Xolotl"
           className="link primary"
         >
           <header className="major">
@@ -25,25 +39,9 @@ export function CollabsGrid() {
           </header>
         </Link>
       </article>
-      <article style={{ backgroundImage: `url(${Image2})` }}>
-        <Link
-          aria-label="Link to Landing Page"
-          to="/landing"
-          className="link primary"
-        >
-          <header className="major">
-            <h4>Chomi Chomi</h4>
-            <p>
-              Proyecto familiar, creado por una joven mexicana, enfocada en su
-              alta repostería.
-            </p>
-          </header>
-        </Link>
-      </article>
       <article style={{ backgroundImage: `url(${Image3})` }}>
         <Link
-          aria-label="Link to Landing Page"
-          to="/landing"
+          aria-label="OCSuculentas"
           className="link primary"
         >
           <header className="major">
@@ -55,21 +53,22 @@ export function CollabsGrid() {
           </header>
         </Link>
       </article>
-      <article style={{ backgroundImage: `url(${Image4})` }}>
+      <article style={{ backgroundImage: `url(${Image2})` }}>
         <Link
-          aria-label="Link to Landing Page"
-          to="/landing"
+          aria-label="ChomiChomi"
           className="link primary"
         >
           <header className="major">
-            <h4>Florista Invitado del Mes</h4>
+            <h4>Chomi Chomi</h4>
             <p>
-              ¡Esta es una sección muy especial! Creada para tener excelentes
-              colaboraciones con colegas floristas, mes con mes.
+              Proyecto familiar, creado por una joven mexicana, enfocada en su
+              alta repostería.
             </p>
           </header>
         </Link>
       </article>
+     
+     
     </Grid>
   );
 }

@@ -35,7 +35,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   h2{
-    font-family: 'Oswald', smercmerans-serif;
+    font-family: 'Poppins', smercmerans-serif;
     font-size: 3em;
   }
   h3{
