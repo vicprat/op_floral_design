@@ -27,10 +27,11 @@ export const GlobalStyle = createGlobalStyle`
     margin: 20px 20px;
   }
   h1{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 200;
     font-size: 3.5em;
     letter-spacing: .5rem;
+    
   }
   
   h2{
@@ -38,25 +39,25 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 3em;
   }
   h3{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2em;
   }
   h4{
     font-size: 1.5em;
-    font-family: 'Oswald', sans-serif;
-    font-size: 3.2em;
-    font-weight: lighter;
-    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    
   }
   h5{
     font-size: 1em;
   }
   h6{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 3em;
     letter-spacing: .5rem;
     color:#23D997 ;
+    font-weight: bold;
   
   }
   p{
