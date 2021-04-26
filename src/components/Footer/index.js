@@ -23,10 +23,8 @@ export function Footer() {
 
           <div className="col-md-3 col-12" id="p1">
             <Title>Nosotros</Title>
-            <p>
-              Contactanos para cotizaciones especiales en eventos y diseños
-              florales exclusivos
-            </p>
+             <h6>Vívelo con flores </h6>
+            <p>OP Floral Design </p>
           </div>
 
           <div className=" col-md-3 col-12" id="p3">
@@ -55,12 +53,6 @@ export function Footer() {
               <StyledLink to="https://www.facebook.com/omarprado.floraldesigner">
                 <h5>Facebook</h5>
               </StyledLink>
-            </Contact>
-            <Contact>
-              <Icon>
-                <FaEnvelope />
-              </Icon>
-              <h5>contacto@opfloraldesign.com</h5>
             </Contact>
           </div>
         </div>

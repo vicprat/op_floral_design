@@ -17,8 +17,7 @@ export function HomeBanner() {
               <h1>Vívelo con</h1>
               <h6>Flores</h6>
             </div>
-            <div className="description">
-            </div>
+            <div className="description"></div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -33,7 +32,6 @@ export function HomeBanner() {
                 Que éste 10 de mayo esa mujer tan especial reciba un arreglo
                 único.
               </p>
-              <StyledLink>¡Conoce Más!</StyledLink>
             </div>
           </Carousel.Caption>
         </Carousel.Item>

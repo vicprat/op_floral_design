@@ -9,6 +9,7 @@ export const FooterWrapper = styled.div`
            font-weight: 400;
            font-size: 1.2rem;
            padding: 1rem;
+           text-align: center;
          }
          h5 {
            text-decoration: none;
@@ -18,20 +19,28 @@ export const FooterWrapper = styled.div`
              text-decoration: none;
            }
          }
+         h6  {
+          padding: 1rem 0;
+           font-size: 2rem;
+           text-align: center;
+         }
        `;
 export const Title = styled.div`
-  font-size: 1.2rem;
-  color: #23d997;
-  border-bottom: solid 2px #ccc;
-  padding-top: 1rem;
-`;
+ text-align: center;
+         font-size: 1.2rem;
+         color: #202020;
+         font-weight: bold;
+         border-bottom: solid 2px #ccc;
+         padding: 1rem;
+       `;
 export const Icon = styled.div`
-  width: 250px;
-  cursor: pointer;
-  &:hover {
-    color: #23d997;
-  }
-`;
+ text-align: center;
+         width: 25px;
+         cursor: pointer;
+         &:hover {
+           color: #23d997;
+         }
+       `;
 
 export const Contact = styled.div`
   display: flex;

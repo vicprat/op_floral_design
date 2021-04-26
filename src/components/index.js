@@ -21,6 +21,7 @@ export * from './HomeBanner';
 export * from './CollabsGrid';
 export * from './AboutSection';
 export * from './ShippingForm';
+export * from './ContactForm';
 
 
 
