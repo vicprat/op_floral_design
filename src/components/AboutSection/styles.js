@@ -42,5 +42,5 @@ export const Image = styled.div`
 `;
 export const Hide = styled.div`
          overflow: hidden;
-         padding: 2rem;
+         padding: 1rem;
        `;
