@@ -7,6 +7,7 @@ import {
   FaWhatsapp,
 } from 'react-icons/fa';
 import { FooterWrapper, Title, Icon, Contact } from './styles';
+import { StyledLink } from '../StyledLink';
 
 export function Footer() {
   return (
@@ -22,10 +23,9 @@ export function Footer() {
 
           <div class="col-md-3 col-12" id="p1">
             <Title>Nosotros</Title>
-            <h5>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio,
-              eaque!
-            </h5>
+            <p>
+            Contactanos para cotizaciones especiales en eventos y diseños florales exclusivos
+            </p>
           </div>
 
           <div class=" col-md-3 col-12" id="p3">
@@ -34,20 +34,26 @@ export function Footer() {
               <Icon>
                 <FaWhatsapp />
               </Icon>
+            <StyledLink to="https://wa.me/525627152044">
               <h5>Whatsapp</h5>
+              </StyledLink>
             </Contact>
            
             <Contact>
               <Icon>
                 <FaInstagram />
               </Icon>
+              <StyledLink to="https://www.instagram.com/omarprado.floraldesign/">
               <h5>Instagram</h5>
+              </StyledLink>
             </Contact>
             <Contact>
               <Icon>
                 <FaFacebook />
               </Icon>
+              <StyledLink to="https://www.facebook.com/omarprado.floraldesigner">
               <h5>Facebook</h5>
+              </StyledLink>
             </Contact>
             <Contact>
               <Icon>
@@ -63,3 +69,6 @@ export function Footer() {
     </FooterWrapper>
   );
 }
+
+
+//https://wa.me/525627152044

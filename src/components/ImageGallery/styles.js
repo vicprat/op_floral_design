@@ -6,10 +6,11 @@ export const ImageGalleryWrapper = styled.section`
            width: 500px;
          }
          > div:last-child {
-           width: 300px;
+           width: 400px;
            margin-top: 5px;
+           padding-left: 5rem;
            display: grid;
-           grid-template-columns: repeat(2, 1fr);
+           grid-template-columns: repeat(3, 1fr);
            grid-gap: 5px;
 
            @media (min-width: 768px) {

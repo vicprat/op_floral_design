@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ProducstGridWrapper = styled.section`
          display: grid;
-         padding: 1.5rem;
+         padding: 2rem 1rem;
          grid-gap: 20px;
          grid-template-columns: repeat(2, 1fr);
          text-align: center;

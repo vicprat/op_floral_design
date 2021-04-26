@@ -24,15 +24,21 @@ export const Grid = styled.div`
              justify-content: center;
              align-items: center;
              position: absolute;
-             padding: 5rem;
+             padding: 3rem 2rem;
              text-decoration: none;
              text-align: center;
              h4 {
              }
              p {
-               font-size: 1rem;
-               padding: 1.5rem;
+               font-size: 1.2rem;
+               padding: auto;
                font-weight: lighter;
+             }
+             @media (min-width: 400px) {
+                  p {
+                    padding-top: 3rem;
+                  font-size: 1.5rem;
+                }
              }
            }
          }
