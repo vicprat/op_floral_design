@@ -22,10 +22,13 @@ export const ProductTileWrapper = styled.div`
        `;
 export const Title = styled.div`
          width: 100%;
-         font-size: 1.5rem;
+         font-size: 1rem;
          font-family: 'Poppins', sans-serif;
          bottom: 10%;
          font-weight: 400;
+         @media (min-width: 400px) {
+          font-size: 1.5rem;
+                }
        `;
 
 export const Description = styled.div`

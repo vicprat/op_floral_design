@@ -7,7 +7,7 @@ const ContactPage = () => (
     <SEO title="Contact OP Floral Design" />
     <Wrapper>
       <h1>¡Contactanos!</h1>
-      <p>Escribenos si quieres mas información o colaborar con nostros</p>
+      <p>Escribenos si quieres más información o colaborar con nostros</p>
       <ContactForm />
       <p>Pronto nos pondremos en contacto contigo.</p>
       <h2>Siguenos también en redes sociales</h2>

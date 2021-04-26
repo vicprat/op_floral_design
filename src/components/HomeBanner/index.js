@@ -1,7 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { CarouselWrapper } from './styles';
-import { StyledLink } from '../StyledLink';
 import slide1 from '../../images/home/banner1.png';
 import slide2 from '../../images/home/banner2.png';
 import slide3 from '../../images/home/banner3.png';

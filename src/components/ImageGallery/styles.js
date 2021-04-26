@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const ImageGalleryWrapper = styled.section`
          > div:first-child {
            border: 1px solid #dfb3b3;
-           width: 500px;
          }
          > div:last-child {
            width: 400px;
