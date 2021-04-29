@@ -44,7 +44,7 @@ export function ContactForm() {
 
           <Col md={6}>
             <Form.Group>
-              <Form.Label>Email</Form.Label>
+              <Form.Label>E-mail</Form.Label>
               <Form.Control required size="lg" type="text" name="email" />
             </Form.Group>
           </Col>

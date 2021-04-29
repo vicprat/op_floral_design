@@ -8,16 +8,13 @@ const ShippingPage = () => {
       <Layout>
         <SEO description="OP Floral Designer" title="Shipping Form" />
         <Wrapper>
-        <h2>¡Queremos brindate la mejor atención posible!</h2>
-        <p>
-          
-          Por favor introduce la siguiente información para así poder enviarte
-   
-                los articulos que compraste en la fecha y lugar que desees.
-        
-        </p>
-        <ShippingForm />
-        <h6>Vívelo con flores</h6>
+          <h2>¡Queremos brindarte la mejor atención posible!</h2>
+          <p>
+            Por favor introduce la siguiente información para así poder enviarte
+            los artículos que compraste en la fecha y lugar que desees.
+          </p>
+          <ShippingForm />
+          <h6>¡Gracias por tu compra!</h6>
         </Wrapper>
       </Layout>
     </>

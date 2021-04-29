@@ -15,7 +15,7 @@ export function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/">Inicio</Nav.Link>
-            <Nav.Link href="/categories">Catalogo</Nav.Link>
+            <Nav.Link href="/categories">Catálogo</Nav.Link>
             <Nav.Link href="/contact">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>

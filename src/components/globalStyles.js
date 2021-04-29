@@ -29,14 +29,14 @@ export const GlobalStyle = createGlobalStyle`
   h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 3.5em;
+    font-size: 2rem;
     letter-spacing: .5rem;
     
   }
   
   h2{
     font-family: 'Poppins', smercmerans-serif;
-    font-size: 3em;
+    font-size: 2em;
   }
   h3{
     font-family: 'Poppins', sans-serif;
@@ -54,14 +54,14 @@ export const GlobalStyle = createGlobalStyle`
   h6{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: .5rem;
     color:#23D997 ;
     font-weight: bold;
   
   }
   p{
-    font-size: 1.3em;
+    font-size: 1rem;
   }
   ul{
     margin-left: 20px;

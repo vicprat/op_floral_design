@@ -44,7 +44,7 @@ export function ShippingForm() {
 
           <Col md={6}>
             <Form.Group>
-              <Form.Label>Email</Form.Label>
+              <Form.Label>E-mail</Form.Label>
               <Form.Control required size="lg" type="text" name="email" />
             </Form.Group>
           </Col>
@@ -65,7 +65,7 @@ export function ShippingForm() {
 
           <Col md={6}>
             <Form.Group>
-              <Form.Label>Alcaldia</Form.Label>
+              <Form.Label>Alcaldía</Form.Label>
               <Form.Control required size="lg" type="text" name="addres-1" />
             </Form.Group>
           </Col>
@@ -79,7 +79,7 @@ export function ShippingForm() {
 
           <Col md={6}>
             <Form.Group>
-              <Form.Label> Codigo Postal </Form.Label>
+              <Form.Label> Código Postal </Form.Label>
               <Form.Control required size="lg" type="text" name="zip-code" />
             </Form.Group>
           </Col>
@@ -91,7 +91,7 @@ export function ShippingForm() {
             required
             as="textarea"
             rows="5"
-            placeholder="¿Qué le quieres que le digamos a ésta persona con una tarjeta única?"
+            placeholder="¿Qué quieres decirle a ésta persona con una tarjeta única?"
             name="info"
           />
         </Form.Group>

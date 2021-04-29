@@ -19,9 +19,10 @@ export const FooterWrapper = styled.div`
              text-decoration: none;
            }
          }
-         h6  {
-          padding: 1rem 0;
+         h6 {
+           padding: 1rem 0;
            font-size: 2rem;
+           font-weight: 300;
            text-align: center;
          }
        `;

@@ -6,12 +6,16 @@ const ContactPage = () => (
   <Layout>
     <SEO title="Contact OP Floral Design" />
     <Wrapper>
-      <h1>¡Contactanos!</h1>
-      <p>Escribenos si quieres más información o colaborar con nostros</p>
+      <h1>¡Contáctanos!</h1>
+      <p>
+        Escríbenos si quieres cotizar algún evento, cotización especial o
+        colaborar con nostros.
+      </p>
+      <p> ¡Esperamos saber de ti!</p>
       <ContactForm />
       <p>Pronto nos pondremos en contacto contigo.</p>
-      <h2>Siguenos también en redes sociales</h2>
-      <h6>Vívelo con flores</h6>
+      <h1>Síguenos también en redes sociales.</h1>
+      <h6>CON FLORES ES MEJOR </h6>
     </Wrapper>
   </Layout>
 );
@@ -30,6 +34,6 @@ const Wrapper = styled.div`
     font-weight: 300;
   }
   h6 {
-    font-weight: 300;
+    font-weight: 400;
   }
 `;

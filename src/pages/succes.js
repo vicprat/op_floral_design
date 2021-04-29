@@ -9,7 +9,7 @@ const SuccesPage = () => (
       <h1>¡Muchas Gracias!</h1>
       <p>Recibirás tu compra en la fecha y hora indicada.</p>
       <p>Pronto nos pondremos en contacto contigo.</p>
-      <h6>Vívelo con flores</h6>
+      <h6>CON FLORES ES MEJOR </h6>
     </Wrapper>
   </Layout>
 );

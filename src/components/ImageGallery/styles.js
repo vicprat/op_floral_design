@@ -6,8 +6,8 @@ export const ImageGalleryWrapper = styled.section`
          }
          > div:last-child {
            width: 400px;
-           margin-top: 5px;
-           padding-left: 5rem;
+           margin-top: 10px;
+           padding-left: 1.5rem;
            display: grid;
            grid-template-columns: repeat(3, 1fr);
            grid-gap: 5px;
