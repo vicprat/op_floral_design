@@ -44,9 +44,7 @@ export const ColectionTileContent = styled(motion.div)`
              font-weight: 200;
              background: ${props => (props.sale ? 'rgba(0,0,0, 0.3)' : 'none')};
              transition: all 0.5s;
-             @media (min-width: 384px) {
-               font-size: 3rem;
-             }
+
              &:hover {
                color: white;
              }

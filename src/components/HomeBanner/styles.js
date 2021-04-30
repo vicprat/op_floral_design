@@ -3,14 +3,16 @@ import { StyledLink } from '../StyledLink';
 
 export const CarouselWrapper = styled.div`
          .title {
-           padding: 1rem;
+           padding: 20rem 1rem;
          }
-         img  {
-           padding: 0 0 3rem 0; 
+         img {
+           padding: 0 0 3rem 0;
          }
          .description {
-           padding: 2rem;
+           padding: 2rem 1rem;
            p {
+             font-size: 1.5rem;
+             font-weight: 300;
              margin: 3rem 1rem;
            }
            > ${StyledLink} {

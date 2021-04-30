@@ -5,7 +5,7 @@ export const FiltersWrapper = styled.div`
          margin: 30px;
          justify-content: space-between;
          padding: 10px;
-         @media (max-width: 400px) {
-                display: block;
-                }
+         @media (max-width: 450px) {
+           display: block;
+         }
        `;

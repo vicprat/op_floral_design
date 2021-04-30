@@ -18,7 +18,7 @@ export function Footer() {
 
           <div className="col-md-3 col-12" id="p1">
             <Title>Nosotros</Title>
-            <h6>Expresalo con flores</h6>
+            <h6>Con flores es mejor</h6>
             <p>OP Floral Design </p>
           </div>
 
