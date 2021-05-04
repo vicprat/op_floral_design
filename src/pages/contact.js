@@ -15,7 +15,7 @@ const ContactPage = () => (
       <ContactForm />
       <p>Pronto nos pondremos en contacto contigo.</p>
       <h1>Síguenos también en redes sociales.</h1>
-      <h6>CON FLORES ES MEJOR </h6>
+      <h6>QUE NO NOS FALTEN LAS FLORES </h6>
     </Wrapper>
   </Layout>
 );
