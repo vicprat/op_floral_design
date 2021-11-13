@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { CarouselWrapper } from './styles';
-import slide1 from '../../images/home/carousel1.png';
-import slide2 from '../../images/home/carousel2.png';
-import slide3 from '../../images/home/carousel3.png';
+import slide1 from '../../images/home/carousel4.png';
+import slide2 from '../../images/home/carousel5.png';
+import slide3 from '../../images/home/carousel6.png';
 import mainLogo from '../../images/logoOP.png';
 
 export function HomeBanner() {
